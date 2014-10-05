@@ -1,0 +1,150 @@
+body{
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:14px;
+	color:#666;
+	margin:0px;
+	}
+
+#contenedor{
+	width:900px;
+	height:600px;
+	margin:0 auto;/*para que este centrado*/
+
+
+	}
+
+#cont-menu{
+	width:200px;
+	height:600px;
+	float:left;
+	background:#FF0;
+	}
+
+#info{
+	width:700px;
+	height:600px;
+	float:left;
+	background:#3FF;
+	}
+
+ul{
+	width:150px;
+
+	}
+
+li{
+	list-style-type:none;
+	background:#9F0;
+	margin:10px 5px;
+	padding:10px 5px;
+
+	}
+	
+li a{
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:14px;
+	color:#03F;
+	text-decoration:none;
+	display:block;
+	text-align:right;
+	}
+	
+li a:hover{
+	color:#F00;	
+	}
+
+/*página historia*/
+#paralaimagen{
+	width:220px;
+	height:270px;
+	margin:0 auto;
+	}
+#paralaimagen img{
+	margin:10px;	
+	}
+
+#h-texto{
+	width:660px;
+	height:auto;
+	margin:10px;
+	background:#fff;
+	padding:10px;
+	}
+
+#h-texto h1{
+	font-size:24px;
+	font-weight:normal;
+	text-transform:uppercase;
+	text-align:center;	
+	}
+
+#h-texto h2{
+	font-size:16px;
+	font-weight:bold;
+	font-style:italic;
+	text-align:center;
+	}
+
+#h-texto p{
+	text-align:justify;
+	}
+/*página historia*/
+
+/*página personajes*/
+#per{
+	width:680px;
+	height:580px;
+	margin:10px;
+	background:#FFF;
+	}
+#per h1{
+	font-size:24px;
+	font-weight:normal;
+	text-transform:uppercase;
+	text-align:center;
+	margin:0;
+	line-height:40px;
+	
+	}
+
+#per h2{
+	font-size:24px;
+	font-weight:normal;
+	text-transform:uppercase;
+	text-align:center;
+	line-height:40px;
+	margin-bottom:5px;
+	}
+
+#per #imagen{
+	width:200px;
+	height:225px;
+	margin:10px;	
+	float:left;
+	border:#666 solid 1px;
+	}
+#per #imagen img{
+	width:200px;
+	height:200px;
+	margin:0 0 5px 0;
+
+
+	}
+
+#per #imagen p{
+	text-align:center;
+	margin:0;
+	}
+
+/*/página personajes*/
+
+/*página autor*/
+#cont-aut{
+	width:680px;
+	margin:10px;
+	height:580px;
+	background:#FFF;
+	
+	}
+
+/*/página autor*/
